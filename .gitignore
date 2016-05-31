@@ -1,35 +1,73 @@
-Makefile
-Makefile.Release
-Makefile.Debug
-._*
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+*~
+*.autosave
+*.a
+*.core
 *.moc
 *.o
-*.pdb
+*.obj
 *.orig
 *.rej
-qrc_*
-ui_*
-moc_*
-release/
-debug/
-.moc/
-.ui/
-.obj/
-.rcc/
-*.user
-*.user.*
-./qomp*
-*object_script.*
-qomp_*.deb
-description-pak
-backup*qomp.tgz
-qomp.pbproj/
-qomp.app/
-*.dmg
-bin/
-android/assets/
+*.so
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+core
+!core/
+tags
 .DS_Store
-libqomp/include/
-android/gradle.properties*
-android/local.properties*
-gradle-wrapper.properties~
+.directory
+*.debug
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+*.res
+*.rc
+/.qmake.cache
+/.qmake.stash
+
+# qtcreator generated files
+*.pro.user*
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+
+# Binaries
+# --------
+*.dll
+*.exe
+
