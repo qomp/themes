@@ -14,6 +14,6 @@ unix:!android {
 	}
 	DATADIR = $$PREFIX/share/qomp
 	themes.path = $$DATADIR/themes
-	themes.extra = cp -f $$OUT_PWD/themes.rcc $(INSTALL_ROOT)$$themes.path/themes.rcc
+        themes.extra = $$QMAKE_COPY $$OUT_PWD/themes.rcc $(INSTALL_ROOT)$$themes.path/themes.rcc
 	INSTALLS += themes
 }
