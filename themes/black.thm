@@ -14,8 +14,18 @@ WindowHeader QToolButton {
     height: 15px;
     icon-size: 12px;
     padding: 2px, 1px, 1px, 2px;
+    background: transparent;
 }
 
+WindowHeader QToolButton:hover {
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                          stop: 0 #4a443e, stop: 1 #1b1814);
+}
+
+WindowHeader QToolButton:pressed {
+  background: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+                          stop: 0 #4a443e, stop: 1 #1b1814);
+}
 
 QMainWindow {
     color: #FF931F;
