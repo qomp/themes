@@ -1,3 +1,22 @@
+/*
+UseWindowBorder {
+        use: 0;
+}
+*/
+
+QFrame#headerFrame {
+    background: #363029;
+    padding: 2px;
+}
+
+WindowHeader QToolButton {
+    width: 15px;
+    height: 15px;
+    icon-size: 12px;
+    padding: 2px, 1px, 1px, 2px;
+}
+
+
 QMainWindow {
     color: #FF931F;
     background: black
