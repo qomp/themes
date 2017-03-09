@@ -2,7 +2,26 @@
 Icons {
 	path: <theme_path>/green;
 }
+
+UseWindowBorder {
+	use: 0;
+}
 */
+
+QFrame#headerFrame {
+    background: CadetBlue;
+    padding: 2px;
+}
+
+WindowHeader QToolButton {
+    width: 14px;
+    height: 14px;
+}
+
+
+
+
+
 
 QMainWindow {
     color: DarkSlateGray;
