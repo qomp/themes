@@ -20,6 +20,11 @@ WindowHeader QToolButton {
     padding: 2px, 1px, 1px, 2px;
 }
 
+WindowHeader #lblCaption {
+    color: black;
+    font-weight: bold;
+}
+
 
 QMainWindow {
     color: DarkSlateGray;

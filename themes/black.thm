@@ -27,6 +27,12 @@ WindowHeader QToolButton:pressed {
                           stop: 0 #4a443e, stop: 1 #1b1814);
 }
 
+WindowHeader #lblCaption {
+    color: #EB861A;
+    font-weight: bold;
+}
+
+
 QMainWindow {
     color: #FF931F;
     background: black
