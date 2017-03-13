@@ -33,5 +33,9 @@
         <file>themes/green/toggle.png</file>
         <file>themes/green/updates.png</file>
         <file>themes/green/volume.png</file>
+	<file>themes/green/window_close.png</file>
+        <file>themes/green/window_minimize.png</file>
+        <file>themes/green/window_maximize.png</file>
+        <file>themes/green/window_restore.png</file>
     </qresource>
 </RCC>
