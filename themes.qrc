@@ -37,6 +37,6 @@
         <file>themes/green/window_minimize.png</file>
         <file>themes/green/window_maximize.png</file>
         <file>themes/green/window_restore.png</file>
-        <file>native_linux</file>
+        <file>themes/native_linux.thm</file>
     </qresource>
 </RCC>
