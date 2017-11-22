@@ -1,0 +1,44 @@
+/*
+NativeIcons {
+check: checkbox;
+folder: folder;
+tune_disabled: flag;
+tune: flag-green;
+add: list-add;
+arrow-down: arrow-down;
+arrow-left: arrow-left;
+arrow-up: arrow-up;
+branch-closed: arrow-right;
+branch-open: arrow-down;
+bugreport: tools-report-bug;
+cancel: dialog-cancel;
+close :dialog-close;
+delete: edit-delete;
+next: media-skip-forward;
+help: help-about;
+home: go-home;
+info: documentinfo;
+linear: dialog-memory;
+load: document-open;
+mute: player-volume-muted;
+ok: dialog-ok;
+options: configure;
+pause: media-playback-pause;
+play: media-playback-play;
+random: media-playlist-shuffle;
+repeat: media-playlist-repeat;
+prev: media-skip-backward;
+save: document-save;
+search: search;
+stop: media-playback-stop;
+toggle: window;
+updates: view-refresh;
+volume: player-volume;
+}
+*/
+
+QompPlaylistView {
+    color: #3244C9;
+    font-size: 14px;
+    font-family: "Sans Serif";
+}
