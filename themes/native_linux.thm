@@ -20,7 +20,7 @@ load: document-open;
 mute: audio-volume-muted;
 next: media-seek-forward;
 ok: dialog-ok;
-options: emblem-system;
+options: document-properties;
 pause: media-playback-pause;
 play: media-playback-start;
 prev: media-seek-backward;
@@ -34,11 +34,17 @@ tune: flag-green;
 tune_disabled: flag;
 updates: view-refresh;
 volume: audio-volume-high;
+qomp_pause: qomp-pause-panel;
+qomp_play: qomp-play-panel;
+qomp_stop: qomp-stop-panel;
 }
 */
 
 QompPlaylistView {
-    color: #3244C9;
-    font-size: 14px;
-    font-family: "Sans Serif";
+    font-size: 12px;
+    font-family: "Noto Sans";
+}
+
+QLCDNumber{
+    border: none;
 }
