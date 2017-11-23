@@ -48,3 +48,9 @@ QompPlaylistView {
 QLCDNumber{
     border: none;
 }
+
+QToolButton {
+    qproperty-iconSize: 22px;
+    width: 28px;
+    height: 28px;
+}
